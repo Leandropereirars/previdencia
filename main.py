@@ -2,6 +2,6 @@ def mais_um_meio(nota):
     return nota +1.5
 
 notas = [6.5, 7.8, 8.7]
-notas_finais = map(mais_um_meio, notas)
+notas_finais = map(mais_um_meio, notas) //teste
 
 print(notas_finais)
